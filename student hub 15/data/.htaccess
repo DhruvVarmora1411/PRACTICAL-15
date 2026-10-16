@@ -1,0 +1,6 @@
+# Practical 7: block direct browser downloads of the
+# registration CSV while keeping the Practical 6
+# public JSON datasets readable by fetch().
+<Files "registrations.csv">
+    Require all denied
+</Files>

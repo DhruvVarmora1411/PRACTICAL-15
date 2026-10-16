@@ -1,0 +1,9 @@
+# never track machine-local or uploaded content
+.vscode/
+**/uploads/event_posters/
+Thumbs.db
+Desktop.ini
+*.log
+*.tmp
+*.bak
+*~

@@ -1,0 +1,17 @@
+# StudentHub — files Git must never track.
+# No secrets, uploads, or machine-local state in the repo.
+
+# --- uploads: user posters live on the server, not in git ---
+uploads/event_posters/*
+!uploads/.htaccess
+
+# --- XAMPP / OS noise ---
+Thumbs.db
+Desktop.ini
+.vscode/
+
+# --- logs and temp files ---
+*.log
+*.tmp
+*.bak
+*~
